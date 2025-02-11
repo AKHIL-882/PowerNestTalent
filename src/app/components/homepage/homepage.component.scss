@@ -1,0 +1,208 @@
+/* General Page Styling */
+body {
+    background: #0b0217;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Grid Container */
+.main_home_page {
+    display: grid;
+    grid-template-columns: 1fr; /* Single-column responsive layout */
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    background: #444444;
+}
+ 
+/* Header Section */
+/* Header Section */
+.child_page1 {
+    height: 500px;
+    background: linear-gradient(180deg, #150829, #0b0217);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+ 
+/* Navigation Bar */
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+ 
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+ 
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+ 
+.nav-links li {
+    display: inline;
+}
+ 
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+ 
+.nav-links a:hover {
+    color: #f39c12;
+}
+ 
+/* Get Started Button */
+.nav-button {
+    background: #f39c12;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+ 
+.nav-button:hover {
+    background: #e67e22;
+}
+ 
+/* Hero Content */
+.hero-content {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 100px;
+}
+ 
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+ 
+.hero-content p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+ 
+ 
+/* Image Banner Section */
+.child_page2 {
+    height: 250px;
+    background: #09000C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+/* Statistics Section */
+.child_page3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+    background: #09000C;
+}
+ 
+/* Feature Cards Section */
+.child_page4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background: #09000C;
+ 
+}
+ 
+.child_page4 .card {
+    height: 150px;
+    background: linear-gradient(180deg, #f39c12, #e74c3c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+ 
+/* Join PowerNest Section */
+.child_page5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: #111;
+    text-align: center;
+}
+ 
+/* Expertise Grid Section */
+.child_page6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 40px;
+    background: #09000C;
+ 
+}
+ 
+.child_page6 .expertise-box {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+ 
+/* Map Section */
+.child_page7 {
+    height: 250px;
+    background: #09000C;
+ 
+    // background: url('your-map-image.png') no-repeat center center/cover;
+}
+ 
+/* CTA Section */
+.child_page8 {
+    height: 150px;
+    background: #f39c12;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    width: 1100px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+ 
+/* Footer Section */
+.child_page9 {
+    height: 100px;
+    background: #09000C;
+    text-align: center;
+    padding: 20px;
+}
